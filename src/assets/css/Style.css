@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: rgb(109, 108, 108);
 }
 .container {
   display: flex;
@@ -8,3 +8,18 @@ body {
   align-items: center;
   height: 100vh;
 }
+.bank {
+  display: flex;
+  justify-content: baseline;
+  font-size: x-large;
+  margin-right: 30px;
+  width: 50vh;
+  border: 3px solid;
+  color: rgb(147, 126, 4);
+}
+.bankImg {
+  border-radius: 70%;
+}
+/* .button:hover{
+transition: ;
+} */
