@@ -23,3 +23,8 @@ body {
 /* .button:hover{
 transition: ;
 } */
+.button:hover {
+  background: linear-gradient(135deg, #de2a7b, #ff6f61);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
