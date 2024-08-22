@@ -1,22 +1,13 @@
 import React from "react";
+import bank from "../assets/media/7007517_piggy_money_business_finance_bank_icon.png";
 
-const Bank = () => {
-  const [count, setCount] = useState(0);
-
-  const handleButton = () => {
-    setCount(count + 1);
-  };
-  let changeCount = (e) => {
-    setCount(e.target.value);
-  };
-
+const Bank = ({ count }) => {
   return (
     <div>
-      {" "}
-      <div class="bank">
-        <h1>
-          <img src={bank} class="bankImg" /> X{count}$
-        </h1>
+      <h3 className="title1">stuff the piggy</h3>
+      <div className="bank">
+        <img src={bank} className="bankImg" />
+        <h1>X{count}$</h1>
       </div>
     </div>
   );

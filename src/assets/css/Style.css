@@ -6,25 +6,61 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
 }
 .bank {
   display: flex;
-  justify-content: baseline;
-  font-size: x-large;
+  justify-content: start;
+  font-size: large;
   margin-right: 30px;
-  width: 50vh;
-  border: 3px solid;
+  flex-direction: column;
   color: rgb(147, 126, 4);
+  height: 25vh;
+  align-content: end;
+  flex-wrap: wrap;
 }
 .bankImg {
   border-radius: 70%;
+  width: 100px;
 }
-/* .button:hover{
-transition: ;
-} */
+
 .button:hover {
   background: linear-gradient(135deg, #de2a7b, #ff6f61);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
+}
+.dollar-sign {
+  transition: transform 0.2s;
+}
+
+.dollar-sign:hover {
+  transform: scale(1.1);
+}
+
+.dollar-sign {
+  /* / background-color: #ff6f61; / */
+  /* / background: url("https://www.cleanpng.com/png-dollar-sign-green-dollar-sign-on-green-background-7880776/") / */
+  /* / no-repeat center center;  */
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
+}
+.title1 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-size: 50px;
+}
+.upgrade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 200vh; */
+  border: 4px red solid;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+.upgrade1 {
+  display: flex;
+  justify-content: space-around;
 }
