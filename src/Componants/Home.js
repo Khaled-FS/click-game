@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ButtonsPage from "./ButtonsPage";
 import Bank from "./Bank";
 import coinSound from "../assets/media/coin.mp3"; // Import your sound file
-
+import upgrade from "../assets/media/bonus-points-190035.mp3";
 const Home = () => {
   const [count, setCount] = useState(0); // ----->Holds the total money collected
   const [piggyBank, setPiggyBank] = useState(0); // ---->Holds the money in the piggy bank
@@ -12,6 +12,8 @@ const Home = () => {
   //for piggy bank
   const handleDouble = () => {
     if (piggyBank >= 5) {
+      const audio = new Audio(upgrade);
+      audio.play();
       setDouble(true);
       setPiggyBank(piggyBank - 5);
     } else {
@@ -21,6 +23,8 @@ const Home = () => {
 
   const handleTriple = () => {
     if (piggyBank >= 15) {
+      const audio = new Audio(upgrade);
+      audio.play();
       setTriple(true); // Activate triple points
       setPiggyBank(piggyBank - 15); // Decrease piggy bank by 35
     } else {

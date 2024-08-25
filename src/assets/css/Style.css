@@ -1,10 +1,11 @@
 body {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/742/259/702/piggy-coins-pig-piggy-bank-wallpaper-preview.jpg);
+  background-image: url(https://i.ytimg.com/vi/5sK-7IQ0D0M/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZSg4MA8=&rs=AOn4CLCur4zhQ-J3TDhvXmbiZs5qqlD9rQ);
   background-repeat: no-repeat;
-  background-size: 100vh 100vw;
+  background-size: 1980px 1080px;
   background-position: center;
   margin: 0;
   background-attachment: fixed;
+  flex-wrap: nowrap;
 }
 .container {
   display: flex;
