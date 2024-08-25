@@ -1,5 +1,10 @@
 body {
-  background-color: rgb(109, 108, 108);
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/742/259/702/piggy-coins-pig-piggy-bank-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vh 100vw;
+  background-position: center;
+  margin: 0;
+  background-attachment: fixed;
 }
 .container {
   display: flex;
@@ -38,9 +43,6 @@ body {
 }
 
 .dollar-sign {
-  /* / background-color: #ff6f61; / */
-  /* / background: url("https://www.cleanpng.com/png-dollar-sign-green-dollar-sign-on-green-background-7880776/") / */
-  /* / no-repeat center center;  */
   background-size: cover;
   padding: 10px;
   border-radius: 5px;
@@ -55,12 +57,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* width: 200vh; */
-  border: 4px red solid;
+
   align-items: space-between;
   flex-wrap: wrap;
 }
 .upgrade1 {
   display: flex;
   justify-content: space-around;
+}
+.upgrade-point-button {
+  font-size: 1.5rem; /* Adjust as needed */
+  color: #42ac57; /* Text color */
+  background-color: #0a0a0a; /* Background color */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding for size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }

@@ -7,7 +7,7 @@ const Bank = ({ count }) => {
       <h3 className="title1">stuff the piggy</h3>
       <div className="bank">
         <img src={bank} className="bankImg" />
-        <h1>X{count}$</h1>
+        <h1>X{count}$</h1> {/* Display piggy bank value */}
       </div>
     </div>
   );
